@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/quantity_text_view"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -16,12 +16,21 @@
         android:textAllCaps="true"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
         android:textSize="16sp"
         android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Price"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"/>
 
 
     <Button
@@ -29,7 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Order" />
+        android:text="Order"
+        android:onClick="submitOrder"/>
 
 
 </LinearLayout>
